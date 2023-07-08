@@ -19,7 +19,7 @@ def start(update: Update, context: CallbackContext):
     the_bot = context.bot
     chat_id = update.effective_chat.id
     user_name = update.effective_user.name
-    the_bot.send_message(chat_id=chat_id, text=f"👋 Hi {user_name}, i'm a bot 🤖")
+    the_bot.send_message(chat_id=chat_id, text=f"👋 Hello from the cloud 🌩️")
 
 
 def reverseit(update: Update, context: CallbackContext):
